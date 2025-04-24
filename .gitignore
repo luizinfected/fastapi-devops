@@ -1,0 +1,24 @@
+# Ambiente virtual
+venv/
+.env
+__pycache__/
+*.pyc
+
+# VSCode, IDEs e sistemas
+.vscode/
+.idea/
+.DS_Store
+
+# Arquivos de build
+*.egg-info/
+dist/
+build/
+
+
+# terraform
+*.tfvars
+*.hcl
+*.pem
+*.tfstate
+*.tfstate.backup
+*.terraform
